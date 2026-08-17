@@ -1,0 +1,24 @@
+{
+  "armature_name": null,
+  "bones": {
+    "hips": "mixamorig:Hips",
+    "spine": "mixamorig:Spine",
+    "chest": "mixamorig:Spine2",
+    "neck": "mixamorig:Neck",
+    "head": "mixamorig:Head",
+    "left_upper_arm": "mixamorig:LeftArm",
+    "left_lower_arm": "mixamorig:LeftForeArm",
+    "left_hand": "mixamorig:LeftHand",
+    "right_upper_arm": "mixamorig:RightArm",
+    "right_lower_arm": "mixamorig:RightForeArm",
+    "right_hand": "mixamorig:RightHand",
+    "left_upper_leg": "mixamorig:LeftUpLeg",
+    "left_lower_leg": "mixamorig:LeftLeg",
+    "left_foot": "mixamorig:LeftFoot",
+    "right_upper_leg": "mixamorig:RightUpLeg",
+    "right_lower_leg": "mixamorig:RightLeg",
+    "right_foot": "mixamorig:RightFoot"
+  },
+  "apply_hips_orientation": true,
+  "root_motion": false
+}
