@@ -9,6 +9,33 @@ The project is intentionally split into two stages:
 
 This separation keeps the motion extractor reusable when you later replace the MVP pose solver with a higher-quality mocap provider.
 
+
+## Current development focus: character first
+
+The project now supports a **Character Viewer** workflow in addition to the original motion-extraction MVP.
+
+### Phase 1 goal
+
+Create and review a photorealistic 3D human character **before** any dance, rigging, or livestream work.
+
+### Web character viewer
+
+Start the app and open the **Character Viewer** tab. You can:
+
+- load the project default model from `models/characters/main_character.glb`;
+- upload a `.glb`, `.gltf`, `.fbx`, `.obj`, `.stl`, or `.ply` file and preview it in the browser;
+- review the default character blueprint from `config/character_blueprint.json`.
+
+### Character asset location
+
+Put your approved web-viewable model here:
+
+```text
+models/characters/main_character.glb
+```
+
+For production, keep a higher-fidelity source model as `.blend` or `.fbx` beside it when possible.
+
 ## What works in v0.1
 
 - Upload a dance reference video.
