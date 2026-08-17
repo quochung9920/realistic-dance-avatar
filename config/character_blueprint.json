@@ -1,0 +1,20 @@
+{
+  "project_stage": "Phase 1 - create and review the 3D character before rigging and dance animation",
+  "character_name": "Nova",
+  "gender_presentation": "Female",
+  "apparent_age": "22-25",
+  "style_target": "Photorealistic digital human",
+  "skin_tone": "Light healthy skin with realistic pore detail and subtle subsurface scattering",
+  "hair": "Long black hair with a soft natural wave and clean hairline",
+  "eyes": "Natural dark brown eyes with clear highlights and realistic lashes",
+  "body_type": "Balanced real-world proportions suitable for dance performance",
+  "height_target": "Approximately 165-170 cm",
+  "outfit": "Modern fitted TikTok-ready outfit that looks premium and allows movement",
+  "tiktok_vibe": "Elegant, attractive, premium, camera-friendly",
+  "build_goals": [
+    "Look close to a real person rather than a stylized VTuber or game character",
+    "Review the face, body shape, outfit, and overall presence in a browser before any animation work",
+    "Keep the final rigging and dance pipeline separate until the look is approved",
+    "Prepare a clean `.glb` viewer asset for web preview and a higher-fidelity `.blend` or `.fbx` source file for production"
+  ]
+}
