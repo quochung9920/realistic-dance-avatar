@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+models/*.task
+output/*
+!output/.gitkeep
+*.blend1
+*.blend2
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.zip
