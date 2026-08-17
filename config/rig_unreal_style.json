@@ -1,0 +1,24 @@
+{
+  "armature_name": null,
+  "bones": {
+    "hips": "pelvis",
+    "spine": "spine_01",
+    "chest": "spine_03",
+    "neck": "neck_01",
+    "head": "head",
+    "left_upper_arm": "upperarm_l",
+    "left_lower_arm": "lowerarm_l",
+    "left_hand": "hand_l",
+    "right_upper_arm": "upperarm_r",
+    "right_lower_arm": "lowerarm_r",
+    "right_hand": "hand_r",
+    "left_upper_leg": "thigh_l",
+    "left_lower_leg": "calf_l",
+    "left_foot": "foot_l",
+    "right_upper_leg": "thigh_r",
+    "right_lower_leg": "calf_r",
+    "right_foot": "foot_r"
+  },
+  "apply_hips_orientation": true,
+  "root_motion": false
+}
