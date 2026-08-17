@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realistic-dance-avatar"
+version = "0.1.0"
+description = "Video-to-motion pipeline for photorealistic 3D dance avatars"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [{name = "quochung9920"}]
+dependencies = [
+  "mediapipe==0.10.35",
+  "gradio==6.20.0",
+  "numpy>=2.0,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dance-avatar = "realistic_dance_avatar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["realistic_dance_avatar*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
